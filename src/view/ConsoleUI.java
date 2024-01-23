@@ -18,7 +18,7 @@ public class ConsoleUI implements View {
 
     @Override
     public void start() {
-        System.out.println("Здравствуйте. Что вы хотите сделать? Укажите цифру: ");
+        System.out.println("Здравствуйте. Что выбираете? Укажите цифру: ");
         while (work) {
             System.out.println("1 - Ввести данные.");
             System.out.println("2 - Выйти из приложения.");

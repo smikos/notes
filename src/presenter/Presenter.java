@@ -14,7 +14,7 @@ public class Presenter {
     }
 
     public void getInfo(String text) {
-        view.printAnswer("Ваши данные проверяются...");
+        view.printAnswer("Проверка...");
         service.processData(text);
 
     }
